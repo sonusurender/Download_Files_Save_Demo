@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <!--  Download Pdf Layout  -->
+    <Button
+        android:id="@+id/downloadPdf"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/download_Pdf" />
+
+    <!--  Download Doc Layout  -->
+    <Button
+        android:id="@+id/downloadDoc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/download_Doc" />
+
+    <!--  Download Zip File Layout  -->
+    <Button
+        android:id="@+id/downloadZip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/download_zip" />
+
+    <!--  Download Video File Layout  -->
+    <Button
+        android:id="@+id/downloadVideo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/download_video" />
+
+    <!--  Download MP3 File Layout  -->
+    <Button
+        android:id="@+id/downloadMp3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/download_mp3" />
+
+    <!--  Open Downloaded Folder  -->
+    <Button
+        android:id="@+id/openDownloadedFolder"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/openFolder" />
+
+</LinearLayout>
